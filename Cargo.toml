@@ -1,0 +1,16 @@
+[package]
+name = "kloop"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.29", features = ["derive"] }
+fs_extra = "1.2.0"
+glob = "0.3.0"
+ignore = "0.4.18"
+notify = "5.0.0"
+serde = { version = "1.0.150", features = ["derive"] }
+serde_json = "1.0.89"
+similar = "2.2.1"
